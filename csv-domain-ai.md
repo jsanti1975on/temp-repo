@@ -47,3 +47,22 @@ dn,SamAccountName,userPrincipalName,objectClass
 ```
 ______________________________________> Run:
 csvde -i -f csvusers.csv
+
+## New Project
+
+```
+G_Cattleya
+Hazel Boyd, hboyd
+Ken Dream, kdream
+Smiley Sunset, ssunset
+----
+G_Vanda
+Antonio Romani, aromani
+Mimi Palmer, mpalmer
+Pedro Bonetti, pbonetti
+---
+G_Catasetum
+Chuck Taylor, ctaylor
+Fred Clark, fclark
+Jean Monnier, jmonnier
+```
