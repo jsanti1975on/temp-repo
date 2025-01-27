@@ -109,3 +109,7 @@ New-ADOrganizationalUnit -Name "Vanda" -Description "Vanda Users" -DisplayName "
 New-ADOrganizationalUnit -Name "Catasetum" -Description "Catasetum Users" -DisplayName "Catasetum" -ProtectedFromAccidentalDeletion $True -Path "DC=orkid-west,DC=arpa"
 ```
 
+```PowerShell
+Install-WindowsFeature -Name FS-FileServer, FS-Resource-Manager -IncludeManagementTools
+```
+
