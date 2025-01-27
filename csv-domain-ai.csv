@@ -13,5 +13,6 @@ dn,SamAccountName,userPrincipalName,objectClass
 "cn=Generative,ou=TYPES,dc=machine,dc=ai",Generative,Generative@machine.ai,user
 "cn=Conversation,ou=TYPES,dc=machine,dc=ai",Conversation,Conversation@machine.ai,user
 "cn=Deep,ou=TYPES,dc=machine,dc=ai",Deep,Deep@machine.ai,user
-"cn=Limited,ou=TYPES,dc=machine,dc=ai",Limited,Limited@machine.ai,user ______________________________________> Run:
+"cn=Limited,ou=TYPES,dc=machine,dc=ai",Limited,Limited@machine.ai,user
+______________________________________> Run:
 csvde -i -f csvusers.csv
