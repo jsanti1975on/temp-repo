@@ -66,3 +66,21 @@ Chuck Taylor, ctaylor
 Fred Clark, fclark
 Jean Monnier, jmonnier
 ```
+
+## Clean template 
+
+```csv
+dn,SamAccountName,userPrincipalName,objectClass
+"cn=<<Name>>,ou=<<OU>>,dc=domain,dc=name",<<Name>>,<<Name>>@<<Domain>>,user
+"cn=<<Name>>,ou=<<OU>>,dc=domain,dc=name",<<Name>>,<<Name>>@<<Domain>>,user
+"cn=<<Name>>,ou=<<OU>>,dc=domain,dc=name",<<Name>>,<<Name>>@<<Domain>>,user
+"cn=<<Name>>,ou=<<OU>>,dc=domain,dc=name",<<Name>>,<<Name>>@<<Domain>>,user
+"cn=<<Name>>,ou=<<OU>>,dc=domain,dc=name",<<Name>>,<<Name>>@<<Domain>>,user
+"cn=<<Name>>,ou=<<OU>>,dc=domain,dc=name",<<Name>>,<<Name>>@<<Domain>>,user
+"cn=<<Name>>,ou=<<OU>>,dc=domain,dc=name",<<Name>>,<<Name>>@<<Domain>>,user
+"cn=<<Name>>,ou=<<OU>>,dc=domain,dc=name",<<Name>>,<<Name>>@<<Domain>>,user
+"cn=<<Name>>,ou=<<OU>>,dc=domain,dc=name",<<Name>>,<<Name>>@<<Domain>>,user
+"cn=<<Name>>,ou=<<OU>>,dc=domain,dc=name",<<Name>>,<<Name>>@<<Domain>>,user
+"cn=<<Name>>,ou=<<OU>>,dc=domain,dc=name",<<Name>>,<<Name>>@<<Domain>>,user
+"cn=<<Name>>,ou=<<OU>>,dc=domain,dc=name",<<Name>>,<<Name>>@<<Domain>>,user
+```
