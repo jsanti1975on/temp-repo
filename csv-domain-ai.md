@@ -103,3 +103,9 @@ dn,SamAccountName,userPrincipalName,objectClass
 "cn=Jean Monnier,ou=Catasetum,dc=orkid-west,dc=arpa",jmonnier,jmonnier@orkid-west.arpa,user
 ```
 
+```PowerShell
+New-ADOrganizationalUnit -Name "Cattleya" -Description "Cattleya Users" -DisplayName "Cattleya" -ProtectedFromAccidentalDeletion $True -Path "DC=orkid-west,DC=arpa"
+New-ADOrganizationalUnit -Name "Vanda" -Description "Vanda Users" -DisplayName "Vanda" -ProtectedFromAccidentalDeletion $True -Path "DC=orkid-west,DC=arpa"
+New-ADOrganizationalUnit -Name "Catasetum" -Description "Catasetum Users" -DisplayName "Catasetum" -ProtectedFromAccidentalDeletion $True -Path "DC=orkid-west,DC=arpa"
+```
+
