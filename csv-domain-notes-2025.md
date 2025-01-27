@@ -114,15 +114,7 @@ Powershell
 Install-WindowsFeature -Name FS-FileServer, FS-Resource-Manager -IncludeManagementTools
 ```
 
-## PowerShell - Get Objects
 
-```PowerShell
-Get-ADUser -Filter * -Properties DisplayName
-
-Get-ADUser -Filter * -Properties SamAccountName, EmailAddress | Select-Object SamAccountName, EmailAddress
-
-Get-ADGroup -Filter * -Properties Name
-```
 
 
 
