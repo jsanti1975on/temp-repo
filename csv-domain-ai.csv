@@ -1,0 +1,17 @@
+Import Users (CSV):
+File Name: csvusers.csv
+File Contents:
+dn,SamAccountName,userPrincipalName,objectClass
+"cn=ChatGPT,ou=MODELS,dc=machine,dc=ai",ChatGPT,ChatGPT@machine.ai,user
+"cn=OpenAI,ou=MODELS,dc=machine,dc=ai",OpenAI,OpenAI@machine.ai,user
+"cn=Bing,ou=MODELS,dc=machine,dc=ai",Bing,Bing@machine.ai,user
+"cn=Claude,ou=MODELS,dc=machine,dc=ai",Claude,Claude@machine.ai,user
+"cn=Whisper,ou=TERMS,dc=machine,dc=ai",Whisper,Whisper@machine.ai,user
+"cn=Hallucination,ou=TERMS,dc=machine,dc=ai",Hallucination,Hallucination@machine.ai,user
+"cn=Turing,ou=TERMS,dc=machine,dc=ai",Turing,Turing@machine.ai,user
+"cn=Prompt,ou=TERMS,dc=machine,dc=ai",Prompt,Prompt@machine.ai,user
+"cn=Generative,ou=TYPES,dc=machine,dc=ai",Generative,Generative@machine.ai,user
+"cn=Conversation,ou=TYPES,dc=machine,dc=ai",Conversation,Conversation@machine.ai,user
+"cn=Deep,ou=TYPES,dc=machine,dc=ai",Deep,Deep@machine.ai,user
+"cn=Limited,ou=TYPES,dc=machine,dc=ai",Limited,Limited@machine.ai,user ______________________________________> Run:
+csvde -i -f csvusers.csv
