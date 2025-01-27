@@ -84,3 +84,21 @@ dn,SamAccountName,userPrincipalName,objectClass
 "cn=<<Name>>,ou=<<OU>>,dc=domain,dc=name",<<Name>>,<<Name>>@<<Domain>>,user
 "cn=<<Name>>,ou=<<OU>>,dc=domain,dc=name",<<Name>>,<<Name>>@<<Domain>>,user
 ```
+
+## Template filled
+
+```csv
+dn,SamAccountName,userPrincipalName,objectClass
+"cn=G_Cattleya,ou=Cattleya,dc=orkid-west,dc=arpa",G_Cattleya,G_Cattleya@orkid-west.arpa,user
+"cn=Hazel Boyd,ou=Cattleya,dc=orkid-west,dc=arpa",hboyd,hboyd@orkid-west.arpa,user
+"cn=Ken Dream,ou=Cattleya,dc=orkid-west,dc=arpa",kdream,kdream@orkid-west.arpa,user
+"cn=Smiley Sunset,ou=Cattleya,dc=orkid-west,dc=arpa",ssunset,ssunset@orkid-west.arpa,user
+"cn=G_Vanda,ou=Vanda,dc=orkid-west,dc=arpa",G_Vanda,G_Vanda@orkid-west.arpa,user
+"cn=Antonio Romani,ou=Vanda,dc=orkid-west,dc=arpa",aromani,aromani@orkid-west.arpa,user
+"cn=Mimi Palmer,ou=Vanda,dc=orkid-west,dc=arpa",mpalmer,mpalmer@orkid-west.arpa,user
+"cn=Pedro Bonetti,ou=Vanda,dc=orkid-west,dc=arpa",pbonetti,pbonetti@orkid-west.arpa,user
+"cn=G_Catasetum,ou=Catasetum,dc=orkid-west,dc=arpa",G_Catasetum,G_Catasetum@orkid-west.arpa,user
+"cn=Chuck Taylor,ou=Catasetum,dc=orkid-west,dc=arpa",ctaylor,ctaylor@orkid-west.arpa,user
+"cn=Fred Clark,ou=Catasetum,dc=orkid-west,dc=arpa",fclark,fclark@orkid-west.arpa,user
+"cn=Jean Monnier,ou=Catasetum,dc=orkid-west,dc=arpa",jmonnier,jmonnier@orkid-west.arpa,user
+```
