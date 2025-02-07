@@ -25,9 +25,9 @@ Preventing Unauthorized Changes:
 The CallLog sheet can be password-protected to prevent users from modifying call records after entry.
 Digital Signatures can be used if needed.
 To add a username column:
+```
 
-vba
-Copy
-Edit
+
+```vba
 .Cells(iRow, 6).Value = Application.UserName ' Logs the specialist's username
 ```
