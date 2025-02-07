@@ -13,3 +13,21 @@ txtNotes	TextBox	Small note about the call (only if tenant was reached).
 cmdLogCall	CommandButton	Button to log the call entry into CallLog.
 cmdCancel	CommandButton	Button to close the form without saving.
   ```
+
+
+# 🔹 Non-Repudiation Strategy
+```Bash
+To ensure non-repudiation, we log the following details:
+
+Timestamp (callTime): Logs the date and time of the call.
+Caller (Application.UserName) (Optional Enhancement): Captures the Excel username to track who logged the call.
+Preventing Unauthorized Changes:
+The CallLog sheet can be password-protected to prevent users from modifying call records after entry.
+Digital Signatures can be used if needed.
+To add a username column:
+
+vba
+Copy
+Edit
+.Cells(iRow, 6).Value = Application.UserName ' Logs the specialist's username
+```
