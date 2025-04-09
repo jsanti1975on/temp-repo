@@ -1,6 +1,7 @@
 '==========[ Note this is the 1st version, the next version has more protections for doublebookings ]==========
 '==========[ For the reservation development process, check box logic portion is not below ]==========
 '==========[jas.digital.tools, Jason Santiago 04-09-2025]========== 
+'==========[ !!!!! The sub procedure work well as is but will overwrite on a same day rental - I will add the logic after further use of below ]==========
 ' Form Code
 Option Explicit
 ' Reference to the selected sheet
