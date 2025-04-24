@@ -30,7 +30,7 @@ Locked = True if visible
 BackColor light gray (to show it's non-editable)
 ```
 
-
+```bash
 +--------------------------+
 | [ txtTaskName        ]   |
 | [ txtNotes           ]   |
@@ -39,5 +39,5 @@ BackColor light gray (to show it's non-editable)
 | [ txtActiveTask ]         (hidden or read-only)           |
 | [ lblRowIndex   ]         (hidden)                        |
 +--------------------------+
-
+```
 
