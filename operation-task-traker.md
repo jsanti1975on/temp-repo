@@ -14,7 +14,7 @@ btnReset
 ## Adding Notes
 
 ```plaintext
- Optional Properties Tweaks (Recommended)
+Adding notes
 txtNotes:
 
 MultiLine = True
