@@ -4,7 +4,7 @@ title MFA Self-Check Logger
 :: Identity Check
 set /p usercheck=Are you Jason Santiago? [yes/no]: 
 if /i not "%usercheck%"=="yes" (
-    echo You are not authorized to run this script.
+    echo  You are not authorized to run this script.
     pause
     exit /b
 )
@@ -28,7 +28,7 @@ echo Username: %USERNAME% >> "%logfile%"
 echo Timestamp: %date% %time% >> "%logfile%"
 echo. >> "%logfile%"
 
-:: Prompt for Security+ MFA components
+:: Prompt for MFA components
 set /p know=Do you have something you know? (e.g., password) [yes/no]: 
 echo Something you know: %know% >> "%logfile%"
 if /i not "%know%"=="yes" goto denied
@@ -41,23 +41,27 @@ set /p are=Do you have something you are? (e.g., fingerprint or face ID) [yes/no
 echo Something you are: %are% >> "%logfile%"
 if /i not "%are%"=="yes" goto denied
 
+set /p where=Are you in an authorized location? (e.g., work or VPN) [yes/no]: 
+echo Somewhere you are (location check): %where% >> "%logfile%"
+if /i not "%where%"=="yes" goto denied
+
 :: NIST Awareness Question
 set /p nist=What NIST standard does the MFA authentication practice? 
 if /i not "%nist%"=="800-53" if /i not "%nist%"=="SP 800-53" (
-    echo Incorrect. The correct NIST standard is SP 800-53.
+    echo  Incorrect. The correct NIST standard is SP 800-53.
     echo Exiting without launching the portal...
     echo NIST Awareness Question Failed >> "%logfile%"
     goto end
 )
 
 echo NIST Standard confirmed: %nist% >> "%logfile%"
-echo MFA Self-Check Passed >> "%logfile%"
+echo  MFA Self-Check Passed >> "%logfile%"
 echo Launching secure Microsoft portal...
 start https://mysignins.microsoft.com/security-info
 goto end
 
 :denied
-echo MFA Self-Check Failed >> "%logfile%"
+echo  MFA Self-Check Failed >> "%logfile%"
 echo Secure portal will not be launched.
 
 :end
