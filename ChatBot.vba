@@ -45,3 +45,26 @@ Private Sub cmdLog_Click()
     txtQuestion.Value = ""
     txtQuestion.SetFocus
 End Sub
+
+Private Sub UserForm_Initialize()
+    ' Clear any previous text
+    txtQuestion.Value = ""
+
+    ' Set placeholder behavior
+    With txtQuestion
+        .Font.Size = 11
+        .Font.Name = "Calibri"
+    End With
+
+    ' Style the button
+    With cmdLog
+        .Caption = "Submit Question"
+        .Font.Size = 10
+        .BackColor = RGB(100, 149, 237) ' Cornflower Blue
+        .ForeColor = RGB(255, 255, 255)
+    End With
+
+    ' Optional: Form styling
+    Me.Caption = "Captain Clip AI Logger"
+    Me.BackColor = RGB(240, 248, 255) ' AliceBlue
+End Sub
