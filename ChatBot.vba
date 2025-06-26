@@ -24,6 +24,7 @@ Private Sub cmdLog_Click()
     matchRow = 0
 
     For i = 2 To lastRow
+' Please note this is only the brainstorming process. declare a question as string with no error handle.
         If LCase(wsLog.Cells(i, "B").Value) = LCase(question) Then
             matchRow = i
             Exit For
