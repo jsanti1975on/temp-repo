@@ -1,0 +1,74 @@
+✅ How to Use the “Notice of Termination” Feature (No-Code User Guide)
+This guide shows you how to flag a slip for Overnight, Follow-Up, or Notice of Termination using the Slip Management Form.
+
+🪜 STEP-BY-STEP INSTRUCTIONS
+🔹 Step 1: Open the Marina Form
+Go to the main sheet and press the button that opens the Slip Form.
+
+The form will display all slips in color-coded checkboxes.
+
+🔹 Step 2: Select the Slips
+Click the checkbox for any slip you want to update.
+
+You can select one or multiple slips.
+
+🔹 Step 3: Press the “Update” Button
+This starts the update process.
+
+🔹 Step 4: Answer the First Question
+You’ll see a pop-up:
+
+“Would you like to mark the slips as Overnight?”
+
+✅ If YES → Slips will be set to Overnight (Yellow)
+
+❌ If NO, you'll move to the next step
+
+🔹 Step 5: Answer the Second Question
+If you chose "No" to Overnight, you’ll see this next:
+
+“Will this be a Notice of Termination?”
+
+✅ If YES → You’ll be asked for the termination (open) date
+
+❌ If NO → Slips will be marked as Follow-Up (Blue)
+
+🔹 Step 6: (If YES) Enter the Termination Date
+A box will ask you to enter the date the slip will become available (like: 7/15/2025)
+
+The date is saved to the system
+
+🔹 Step 7: Enter a Note
+A box will ask for a note (example: “Owner notified, leaving mid-July”)
+
+This note will be saved with your name and timestamp
+
+🔹 Step 8: Done!
+A message will confirm your updates
+
+The form will refresh and show the new slip colors
+
+👁️ View All Termination Dates
+You can view all slips with termination dates:
+
+📌 Steps:
+On the form, press the button: “View Termination Dates”
+
+A list will appear showing:
+
+Slip Number
+
+Scheduled Open Date
+
+This helps you plan ahead!
+
+🎨 Slip Color Legend
+Color	Status
+🟩 Green	Open Slip
+🟦 Blue	Follow-Up
+🟨 Yellow	Overnight
+⬛ Black	Wrong Slip (staff flag)
+🔴 Red	Slip Taken or Error
+
+🧼 To Reset
+Use the Clear Colors button if you want to reset selections.
