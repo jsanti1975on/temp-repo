@@ -42,12 +42,15 @@ Private Sub cmdLog_Click()
         wsLog.Cells(lastRow, "D").Value = Now
     End If
 
-    MsgBox "Logged, Captain! ☑️", vbInformation, "Captain Clip"
+    MsgBox "Logged, Captain! ", vbInformation, "Captain Clip"
     txtQuestion.Value = ""
     txtQuestion.SetFocus
 End Sub
 
 Private Sub UserForm_Initialize()
+'== Start of project ==
+'== A command button and text box to collect information ==
+
     ' Clear any previous text
     txtQuestion.Value = ""
 
